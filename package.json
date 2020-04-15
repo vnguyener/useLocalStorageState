@@ -1,0 +1,18 @@
+{
+  "name": "use-local-storage-state-react-hook-vnguyener",
+  "version": "1.0.0",
+  "description": "react hook that stores state to local storage and listens to any storage changes in other tabs and windows",
+  "main": "index.js",
+  "author": "Vu Nguyen <hello.vunguyen@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "homepage": "https://github.com/vnguyener/useLocalStorageState",
+  "bugs": "https://github.com/vnguyener/useLocalStorageState/issues",
+  "repository": {
+    "url": "https://github.com/vnguyener/useLocalStorageState",
+    "type": "git"
+  },
+  "dependencies": {
+    "react": "^16.13.1"
+  }
+}
