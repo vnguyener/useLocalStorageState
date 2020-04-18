@@ -17,13 +17,13 @@ const useLocalStorageState = (key, defaultValue) => {
 
     window.addEventListener("storage", listener);
     return () => {
-      window.removeEventListener("storage, listener");
+      window.removeEventListener("storage", listener);
     };
   }, [key]);
 
   const setLocalStorageValue = (newValue) => {
-    setValue((cuurentValue) => {
-      const result = typeof newValue === "function" ? newValue(cuurentValue) : newValue;
+    setValue((currentValue) => {
+      const result = typeof newValue === "function" ? newValue(currentValue) : newValue;
       localStorage.setItem(key, JSON.stringify(result));
       return result;
     });
