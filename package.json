@@ -13,6 +13,6 @@
     "type": "git"
   },
   "dependencies": {
-    "react": "^16.13.1"
+    "react": "17.0.1"
   }
 }
