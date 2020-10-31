@@ -1,6 +1,6 @@
 {
   "name": "@v/uselocalStorageState",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "react hook that stores state to local storage and listens to any storage changes in other tabs and windows",
   "main": "index.js",
   "author": "Vu Nguyen <hello.vunguyen@gmail.com>",
